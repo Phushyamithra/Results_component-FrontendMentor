@@ -1,0 +1,200 @@
+body {
+  background-color: #fefffe;
+  font-family: "Hanken Grotesk", sans-serif;
+  text-align: center;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  background-color: white;
+  border-radius: 30px;
+  box-shadow: 0 4px 15px rgba(177, 203, 241, 0.753);
+  max-width: 650px;
+}
+
+.score {
+  background: linear-gradient(
+    to bottom,
+    hsl(252, 100%, 67%),
+    hsl(241, 81%, 54%)
+  );
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  color: white;
+  padding: 15px 55px;
+  text-align: center;
+  max-width: 25ch;
+}
+
+.score > h3 {
+  opacity: 0.8;
+  font-size: 23px;
+  font-weight: 500;
+  margin: 20px;
+}
+
+.score > h2 {
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+.score > p {
+  font-size: 18px;
+  opacity: 0.6;
+}
+
+.inner_score {
+  background: linear-gradient(
+    to bottom,
+    hsla(256, 72%, 46%, 1),
+    hsla(241, 72%, 46%, 0)
+  );
+  border-radius: 50%;
+  width: 200px;
+  margin: 12px 7px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.inner_score > h1 {
+  font-size: 60px;
+  font-weight: 800;
+  margin-bottom: 0;
+}
+
+.inner_score > h6 {
+  font-size: 20px;
+  font-weight: 500;
+  opacity: 0.4;
+  margin-top: 0;
+}
+
+.summary {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.allScores {
+  display: flex;
+  flex-direction: column;
+  row-gap: 18px;
+}
+
+.summary > h3 {
+  color: #293047;
+  text-align: left;
+  margin-top: 20px;
+}
+
+/* Styles for each summary category */
+.reaction,
+.memory,
+.verbal,
+.visual {
+  display: flex;
+  align-items: center; /* Centers items vertically */
+  justify-content: space-between; /* Aligns title and marks to the sides */
+  width: 250px; /* Keeps the width the same */
+  height: 35px;
+  padding: 10px; /* Adds some padding */
+  border-radius: 8px; /* Optional: rounds the corners */
+}
+
+.reaction {
+  background-color: #fae0d9c0;
+  color: #ee5c63;
+}
+
+.memory {
+  background-color: #f1e4d1be;
+  color: #efa926;
+}
+
+.verbal {
+  background-color: #d2f3f7bb;
+  color: #1daf8b;
+}
+
+.visual {
+  background-color: #d8dbfcb4;
+  color: #3a44b2;
+}
+
+img {
+  margin-right: 12px; /* Space between image and title */
+}
+
+.title {
+  margin: 0; /* Removes unnecessary margin */
+  text-align: left;
+  left: -10px;
+}
+
+.marks {
+  color: #8a939b;
+  font-weight: 600;
+  margin: 0; /* Removes unnecessary margin */
+  text-align: right; /* Aligns text to the right */
+}
+
+.continue_button {
+  background-color: #313a59; /* Button background color */
+  color: white; /* Button text color */
+  border: none;
+  padding: 15px 20px;
+  border-radius: 50px;
+  cursor: pointer;
+  margin: 20px 0px; /* Adds some spacing */
+}
+
+strong {
+  color: #333749;
+  font-weight: 900;
+}
+
+.internal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+@media (width <=500px) {
+  .container {
+    flex-direction: column;
+    width: 100%;
+  }
+  .score {
+    max-width: fit-content;
+  }
+  .score,
+  .summary {
+    border-radius: 0 0 30px 30px;
+  }
+
+  .inner_score {
+    align-self: center;
+  }
+
+  .reaction,
+  .memory,
+  .verbal,
+  .visual {
+    align-self: center;
+    width: 95%;
+  }
+}

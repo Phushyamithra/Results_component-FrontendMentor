@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Results summary component</title>
+
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="score">
+        <h3>Your Result</h3>
+        <div class="inner_score">
+          <h1>76</h1>
+          <h6>of 100</h6>
+        </div>
+        <h2>Great</h2>
+        <p>
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </div>
+      <div class="summary">
+        <h3>Summary</h3>
+        <div class="allScores">
+          <div class="reaction">
+            <div class="internal">
+              <img
+                src="../results-summary-component-main/assets/images/icon-reaction.svg"
+                alt="reaction"
+              />
+              <p class="title">Reaction</p>
+            </div>
+            <p class="marks"><strong>80</strong> / 100</p>
+          </div>
+          <div class="memory">
+            <div class="internal">
+              <img
+                src="../results-summary-component-main/assets/images/icon-memory.svg"
+                alt="memory"
+              />
+              <p class="title">Memory</p>
+            </div>
+            <p class="marks"><strong>92</strong> / 100</p>
+          </div>
+          <div class="verbal">
+            <div class="internal">
+              <img
+                src="../results-summary-component-main/assets/images/icon-verbal.svg"
+                alt="verbal"
+              />
+              <p class="title">Verbal</p>
+            </div>
+            <p class="marks"><strong>61</strong> / 100</p>
+          </div>
+          <div class="visual">
+            <div class="internal">
+              <img
+                src="../results-summary-component-main/assets/images/icon-visual.svg"
+                alt="visual"
+              />
+
+              <p class="title">Visual</p>
+            </div>
+            <p class="marks"><strong>72</strong> / 100</p>
+          </div>
+        </div>
+        <div class="continue_button">Continue</div>
+      </div>
+    </div>
+    <!-- <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div> -->
+  </body>
+</html>
