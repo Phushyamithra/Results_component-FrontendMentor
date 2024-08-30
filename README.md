@@ -1,6 +1,6 @@
 # Results Summary Component
 
-This is a solution to the [Results summary component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV). This project demonstrates a component that displays a user's results summary, including various skill scores such as Reaction, Memory, Verbal, and Visual. 
+This is a solution to the [Results summary component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV). This project demonstrates a component that displays a user's results summary, including various skill scores such as Reaction, Memory, Verbal, and Visual.
 
 ## Table of Contents
 
@@ -29,8 +29,6 @@ Users should be able to:
 ### Screenshot
 
 ![image](https://github.com/user-attachments/assets/70ad6dcf-8547-4100-b8b9-54ae6820cd81)
-
-
 
 ### Links
 
@@ -77,6 +75,8 @@ In future projects, I aim to further explore advanced CSS techniques, especially
 
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Phushyamithra)
 - LinkedIn - [@yourusername](https://www.linkedin.com/in/phushya-mithra-gauri-77a359171/)
+
+- Portfolio - (https://portfolio-mine-kappa.vercel.app/)
 
 ## Acknowledgments
 
