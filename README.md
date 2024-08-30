@@ -75,8 +75,8 @@ In future projects, I aim to further explore advanced CSS techniques, especially
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Phushyamithra)
+- LinkedIn - [@yourusername](https://www.linkedin.com/in/phushya-mithra-gauri-77a359171/)
 
 ## Acknowledgments
 
