@@ -160,6 +160,13 @@ img {
   margin: 20px 0px; /* Adds some spacing */
 }
 
+.continue_button:hover {
+  background: linear-gradient(
+    to bottom,
+    hsl(252, 100%, 67%),
+    hsl(241, 81%, 54%)
+  );
+}
 strong {
   color: #333749;
   font-weight: 900;
