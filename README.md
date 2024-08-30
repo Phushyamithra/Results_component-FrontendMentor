@@ -28,12 +28,14 @@ Users should be able to:
 
 ### Screenshot
 
-![Results Summary Component](./screenshot.jpg)
+![image](https://github.com/user-attachments/assets/70ad6dcf-8547-4100-b8b9-54ae6820cd81)
+
+
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/Phushyamithra/Results_component-FrontendMentor)
+- Live Site URL: [Add live site URL here](https://phushyamithra.github.io/Results_component-FrontendMentor/)
 
 ## My Process
 
@@ -42,7 +44,6 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
 
 ### What I Learned
